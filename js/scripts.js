@@ -6,7 +6,6 @@ window.addEventListener('DOMContentLoaded', event => {
     if (isMobile) {
         document.getElementsByTagName('video')[0].webkitEnterFullscreen();
     }
-    
 
     // Navbar shrink function
     var navbarShrink = function () {
